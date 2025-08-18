@@ -41,28 +41,28 @@ As part of the Analytics team, our task is to:
 
 # Project Workflow
 
-## 🗄️ Data Source & Preparation
+## 🗄️ Phase 1 - Data Source & Preparation
 
 	1.	Storage: TravelTide stores its data in a PostgreSQL relational database.
 	2.	Extraction: SQL queries were written to filter, aggregate, and join relevant tables.
 	3.	Export: The cleaned datasets were downloaded as CSV files for further analysis.
 	4.	Analysis & Modeling: Machine Learning algorithms (clustering) were applied to uncover customer segments and preferences.
 
-**🔹 All SQL queries** used for data extraction are stored in the sql_query folder for reproducibility.
+    **🔹 All SQL queries** used for data extraction are stored in the sql_query folder for reproducibility.
 
-**🔹 All CSV data** available in this Google Drive link: https://drive.google.com/drive/folders/1fqbSK29ldlKn-MS2XVVa-uXrZWfAAiGy?usp=sharing
-Connect to the TravelTide database
+    **🔹 All CSV data** available in this Google Drive link: https://drive.google.com/drive/folders/1fqbSK29ldlKn-MS2XVVa-uXrZWfAAiGy?usp=sharing
+         Connect to the TravelTide database
 
-**🔹 Connect to the TravelTide database**
+    **🔹 Connect to the TravelTide database**
 
-postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide
+         postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide
 
-**🔹 Customers Filtering**
+    **🔹 Customers Filtering**
 
 1. activity starting after 04.01.2023 and more than 7 sessions (using SQL).
 2. One million user/5 million unique app sessions/after filtering 5782 active users
 
-## 🔍 Phase 1 – Exploratory Data Analysis (EDA)
+## 🔍 Phase 2 – Exploratory Data Analysis (EDA)
 
 In the EDA Colab notebook, I analyzed multiple CSV datasets including:
 
@@ -85,7 +85,7 @@ In the EDA Colab notebook, I analyzed multiple CSV datasets including:
 
 ⸻
 
-## 🛠️ Phase 2 – Feature Engineering
+## 🛠️ Phase 3 – Feature Engineering
 
 In the feature engineering notebook, I engineered a user-level feature dataset by combining user, hotel, flight, and session information.
 
