@@ -87,7 +87,9 @@ In the EDA Colab notebook, I analyzed multiple CSV datasets including:
 
 ## 🛠️ Phase 3 – Feature Engineering
 
-In the feature engineering notebook, I engineered a user-level feature dataset by combining user, hotel, flight, and session information.
+In the feature engineering notebook, I engineered a user-level feature dataset by combining user, hotel, flight, and session information. There are 21 user-based
+features from user demographic info.,session behavior and purchase patterns from hotel and flight bookings.
+Analyzing tool: Python
 
 **Feature Overview**
 
