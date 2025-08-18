@@ -48,16 +48,16 @@ As part of the Analytics team, our task is to:
 	3.	Export: The cleaned datasets were downloaded as CSV files for further analysis.
 	4.	Analysis & Modeling: Machine Learning algorithms (clustering) were applied to uncover customer segments and preferences.
 
-    **🔹 All SQL queries** used for data extraction are stored in the sql_query folder for reproducibility.
+**🔹 All SQL queries** used for data extraction are stored in the sql_query folder for reproducibility.
 
-    **🔹 All CSV data** available in this Google Drive link: https://drive.google.com/drive/folders/1fqbSK29ldlKn-MS2XVVa-uXrZWfAAiGy?usp=sharing
-         Connect to the TravelTide database
+**🔹 All CSV data** available in this Google Drive link: https://drive.google.com/drive/folders/1fqbSK29ldlKn-MS2XVVa-uXrZWfAAiGy?usp=sharing
+	 Connect to the TravelTide database
 
-    **🔹 Connect to the TravelTide database**
+**🔹 Connect to the TravelTide database**
 
-         postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide
+	 postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide
 
-    **🔹 Customers Filtering**
+**🔹 Customers Filtering**
 
 1. activity starting after 04.01.2023 and more than 7 sessions (using SQL).
 2. One million user/5 million unique app sessions/after filtering 5782 active users
