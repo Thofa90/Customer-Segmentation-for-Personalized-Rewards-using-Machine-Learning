@@ -115,7 +115,7 @@ Analyzing tool: Python
  
 	3.	EDA on Features – distributions, correlations, scaling needs.
  
-	4.	Preprocessing – outlier detection, encoding, scaling, standardization, missing value treatment, and PCA component analysis.
+	4.	Preprocessing – outlier detection, encoding, scaling, standardization, missing value treatment, and PCA (10 components explain 80% variance) component analysis.
  
 	5.	K-Means Clustering
  
@@ -141,7 +141,67 @@ Analyzing tool: Python
  
 	•	All users labeled with their cluster assignment.
 	•	Ready for the marketing team to design targeted perk campaigns.
+ 
+
+## 🔑 Key Insights from Segmentation
+
+- **7 unique customer segments** were identified based on behavioral patterns, demographics, and engagement history. Four segments are derived from k-means ML, and three segments are generated using the EDA approach.  
+- Segments include:
+
+| Segment | Share of Users | Key Traits | Preferred Reward |
+|---------|----------------|------------|------------------|
+| 👑 **Elite** | 20.7% | VIPs, high-spending, premium class | All perks valuable |
+| 💼 **Business Travelers** | 24.6% | Frequent short trips, value-conscious, book flight + hotel | No cancellation fees |
+| 👨‍👩‍👧 **Family Travelers** | 10.1% | Group bookings, seasonal activity, mid-high hotel & flight counts | Free checked bag |
+| 👴 **Senior Travelers** | 9.5% | Less frequent but high-value trips | Free hotel meal |
+| 💸 **Casual Deal Seekers** | 27.1% | Price-sensitive, last-minute bookings | Exclusive discounts |
+| 🔁 **Cautious Loyalists** | 6.6% | Repeat customers, low complaints | No cancellation fees |
+| 🏝️ **Memory Makers** | 1.4% | Long stays, travel with companions | 1 night free hotel with flight |
 
 
+📌 **Why it matters:**  
+
+- Different customer types require **personalized rewards**.  
+- Example: *Business Travelers* prefer “no cancellation fees,” while *Family Travelers* value “free checked bags.”
+
+---
+
+## 📊 Model Results
+
+### ⚡ K-Means Clustering
+- Produced **4 meaningful clusters** that are interpretable and actionable.  
+- **Metrics:**
+  - Silhouette Score = `0.148`  
+  - Davies-Bouldin Index = `1.95`  
+  - Calinski-Harabasz Index = `576`
+
+### 🌀 DBSCAN (Alternative)
+- Higher Silhouette Score (`0.287`) but collapsed data into **1 cluster + noise** → not useful for marketing.  
+
+✅ **Winner: K-Means**  
+- High interpretability  
+- Clear cluster separation  
+- Usable for **multi-segment marketing strategies**
+
+---
+
+## 💡 Recommendations
+
+- 📧 **Segment-based email campaigns** → emphasize the perk most relevant to each cluster.  
+- 🎲 **A/B testing of rewards** → validate hypotheses and optimize campaigns.  
+- 🔄 **Quarterly refinement of clusters** → refresh as customer behavior evolves.  
+
+---
+
+## 🏁 Conclusion
+- **Customer segmentation via K-Means clustering** revealed clear groups with distinct travel behaviors and preferences.  
+- **Key outcome:** Reward strategies can now be tailored:  
+  - 🍽️ Free hotel meals → *Senior Travelers*  
+  - 🧳 Free checked bags → *Family Travelers*  
+  - 🚫 No cancellation fees → *Business Travelers & Loyalists*  
+  - 💸 Discounts → *Casual Deal Seekers*  
+  - 👑 VIP perks → *Elite Customers*  
+
+🎯 This supports **higher loyalty, better retention, and stronger ROI** for TravelTide’s rewards program.  
 
 
