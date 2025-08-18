@@ -27,10 +27,10 @@ As part of the Analytics team, our task is to:
 
 # 🌍 Real-World Impact
 
-	•	Personalized Marketing → Customers receive reward invitations highlighting perks most relevant to them, improving engagement.
-	•	Higher Retention → A tailored rewards program builds loyalty and keeps customers returning to the TravelTide platform.
-	•	Revenue Growth → Increased retention leads to repeat bookings, lower churn, and stronger lifetime customer value (LTV).
-	•	Scalable Strategy → The segmentation framework can be extended to new perks, destinations, or campaigns, making TravelTide’s marketing efforts more data-driven and effective.
+•	Personalized Marketing → Customers receive reward invitations highlighting perks most relevant to them, improving engagement.
+•	Higher Retention → A tailored rewards program builds loyalty and keeps customers returning to the TravelTide platform.
+•	Revenue Growth → Increased retention leads to repeat bookings, lower churn, and stronger lifetime customer value (LTV).
+•	Scalable Strategy → The segmentation framework can be extended to new perks, destinations, or campaigns, making TravelTide’s marketing efforts more data-driven and effective.
 
 ⸻
 
