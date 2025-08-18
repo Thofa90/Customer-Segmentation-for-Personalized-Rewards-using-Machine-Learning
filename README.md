@@ -39,7 +39,9 @@ As part of the Analytics team, our task is to:
 
 **⚡ This project bridges** Marketing expertise and Data Analytics, showing how data-driven segmentation directly supports business growth.
 
+
 # Project Workflow
+
 
 ## 🗄️ Phase 1 - Data Source & Preparation
 
@@ -51,8 +53,7 @@ As part of the Analytics team, our task is to:
 **🔹 All SQL queries** used for data extraction are stored in the sql_query folder for reproducibility.
 
 **🔹 All CSV data** available in this Google Drive link: https://drive.google.com/drive/folders/1fqbSK29ldlKn-MS2XVVa-uXrZWfAAiGy?usp=sharing
-	 Connect to the TravelTide database
-
+	 
 **🔹 Connect to the TravelTide database**
 
 	 postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide
