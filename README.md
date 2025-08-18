@@ -39,7 +39,9 @@ As part of the Analytics team, our task is to:
 
 **⚡ This project bridges** Marketing expertise and Data Analytics, showing how data-driven segmentation directly supports business growth.
 
-# 🗄️ Data Source & Preparation
+# Project Workflow
+
+## 🗄️ Data Source & Preparation
 
 	1.	Storage: TravelTide stores its data in a PostgreSQL relational database.
 	2.	Extraction: SQL queries were written to filter, aggregate, and join relevant tables.
@@ -54,5 +56,51 @@ Connect to the TravelTide database
 **🔹 Connect to the TravelTide database**
 
 postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide
+
+**🔹 Customers Filtering**
+
+1. activity starting after 04.01.2023 and more than 7 sessions (using SQL).
+2. One million user/5 million unique app sessions/after filtering 5782 active users
+
+## 🔍 Phase 1 – Exploratory Data Analysis (EDA)
+
+In the EDA Colab notebook, I analyzed multiple CSV datasets including:
+
+	•	Users Data → demographic details (age, marital status, children, home country, tenure).
+	•	Hotels Info → hotel bookings, nights, average price, distinct hotels booked.
+	•	Flights Data → seats booked, flight price, number of flights, distance flown, checked bags.
+	•	Sessions Data → trips count, session count, session duration, page clicks, canceled trips.
+
+**Key Insights from EDA**
+
+	•	75.10% of users booked both hotel and flight during trip planning.
+	•	24.89% booked only hotel or flight.
+	•	Recommendation: Target customers with personalized perks to encourage combined bookings (hotel + flight).
+
+**Why Perks matters:**
+
+	•	Personalized perks can boost loyalty and engagement.
+	•	Higher retention improves lifetime customer value (LTV).
+	•	Smarter targeting increases return on marketing investment (ROI).
+
+⸻
+
+## 🛠️ Phase 2 – Feature Engineering
+
+In the feature engineering notebook, I engineered a user-level feature dataset by combining user, hotel, flight, and session information.
+
+**Feature Overview**
+
+	•	21 User-based features (raw and engineered).
+	•	16 newly engineered features created through aggregation and transformation.
+	•	Final dataset → one feature row per user.
+
+**Example of Features**
+
+	•	Demographics: Age, marital status, children, home country, tenure (months).
+	•	Flights: Seats booked, avg. flight price, number of flights, distance flown, and checked bags.
+	•	Hotels: Rooms booked, night stays, avg. hotel price, distinct hotels booked.
+	•	Sessions: Number of trips, session count, session duration, page clicks per session, and canceled trips.
+
 
 
