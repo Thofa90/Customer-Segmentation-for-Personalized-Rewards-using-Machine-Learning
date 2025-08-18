@@ -75,7 +75,7 @@ In the EDA Colab notebook, I analyzed multiple CSV datasets including:
 **Key Insights from EDA**
 
 	•	75.10% of users booked both hotel and flight during trip planning.
-	•	24.89% booked only hotel or flight.
+	•	24.89% booked either a hotel or a flight.
 	•	Recommendation: Target customers with personalized perks to encourage combined bookings (hotel + flight).
 
 **Why Perks matters:**
@@ -104,6 +104,44 @@ Analyzing tool: Python
 	•	Flights: Seats booked, avg. flight price, number of flights, distance flown, and checked bags.
 	•	Hotels: Rooms booked, night stays, avg. hotel price, distinct hotels booked.
 	•	Sessions: Number of trips, session count, session duration, page clicks per session, and canceled trips.
+
+ ## 🔍 Phase 4 – Clustering & Analysis
+
+**Steps performed:**
+
+	1 Importing Libraries – pandas, matplotlib, seaborn, sklearn, etc.
+ 
+	2.	Load Data – joined dataset with all engineered features.
+ 
+	3.	EDA on Features – distributions, correlations, scaling needs.
+ 
+	4.	Preprocessing – outlier detection, encoding, scaling, standardization, missing value treatment, and PCA component analysis.
+ 
+	5.	K-Means Clustering
+ 
+	•	Elbow method + silhouette score to select optimal clusters.
+	•	Cluster interpretation (user segments by booking & behavior).
+ 
+	6.	Evaluation
+ 
+	•	Silhouette Score, Davies-Bouldin Index, CH Index.
+	•	Business meaning of each cluster.
+ 
+	7.	Alternative Method: DBSCAN
+ 
+	•	Tested density-based clustering for irregular clusters.
+	•	Less effective due to sparse/noisy data → K-Means chosen.
+ 
+	8.	Final Recommendation
+ 
+	•	K-Means is the most suitable algorithm for this case.
+	•	Produces well-separated, interpretable clusters.
+ 
+	9.	Final Dataset
+ 
+	•	All users labeled with their cluster assignment.
+	•	Ready for the marketing team to design targeted perk campaigns.
+
 
 
 
