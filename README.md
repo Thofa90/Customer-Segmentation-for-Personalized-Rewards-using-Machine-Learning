@@ -38,3 +38,13 @@ As part of the Analytics team, our task is to:
 ⸻
 
 **⚡ This project bridges** Marketing expertise and Data Analytics, showing how data-driven segmentation directly supports business growth.
+
+# 🗄️ Data Source & Preparation
+	•	Storage: TravelTide stores its data in a PostgreSQL relational database.
+	•	Extraction: SQL queries were written to filter, aggregate, and join relevant tables.
+	•	Export: The cleaned datasets were downloaded as CSV files for further analysis.
+	•	Analysis & Modeling: Machine Learning algorithms (clustering) were applied to uncover customer segments and preferences.
+
+🔹 All SQL queries used for data extraction are stored in the sql_query folder for reproducibility.
+
+🔹 All CSV data available in this Google Drive link: https://drive.google.com/drive/folders/1fqbSK29ldlKn-MS2XVVa-uXrZWfAAiGy?usp=sharing
