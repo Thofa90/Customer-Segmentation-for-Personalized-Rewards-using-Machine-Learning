@@ -202,6 +202,12 @@ Analyzing tool: Python
   - 💸 Discounts → *Casual Deal Seekers*  
   - 👑 VIP perks → *Elite Customers*
   - 🧳 One night free hotel with a flight → *Memory Makers*
+ 
+# 🛠️ Tech Stack
+	•	Languages: Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
+	•	Database: PostgreSQL (for initial data extraction)
+	•	Environment: Google Colab
+	•	ML Algorithms: K-Means, DBSCAN
 
 🎯 This supports **higher loyalty, better retention, and stronger ROI** for TravelTide’s rewards program.  
 
