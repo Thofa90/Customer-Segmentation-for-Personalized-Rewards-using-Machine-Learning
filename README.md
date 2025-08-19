@@ -200,7 +200,8 @@ Analyzing tool: Python
   - 🧳 Free checked bags → *Family Travelers*  
   - 🚫 No cancellation fees → *Business Travelers & Loyalists*  
   - 💸 Discounts → *Casual Deal Seekers*  
-  - 👑 VIP perks → *Elite Customers*  
+  - 👑 VIP perks → *Elite Customers*
+  - 🧳 One night free hotel with a flight → *Memory Makers*
 
 🎯 This supports **higher loyalty, better retention, and stronger ROI** for TravelTide’s rewards program.  
 
